@@ -18,3 +18,6 @@ vim.api.nvim_set_keymap('n', '<C-t>', ':lua NewTerminalTab() <CR>', { noremap = 
 
 vim.api.nvim_set_keymap('i', '<C-z>', '<esc>:lua OpenTerminal()<CR>', { noremap = true })
 vim.api.nvim_set_keymap('n', '<C-z>', ':lua OpenTerminal()<CR>', { noremap = true })
+
+-- Escape to out terminal mode.
+vim.api.nvim_set_keymap('t', '<Esc>', '<C-\\><C-n>', { noremap = true })

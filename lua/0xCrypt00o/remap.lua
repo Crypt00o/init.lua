@@ -15,12 +15,6 @@ vim.api.nvim_set_keymap('n', '<C-q>', ':q!<CR>', { noremap = true })
 
 
 
-
--- Escape to out terminal mode.
-vim.api.nvim_set_keymap('t', '<Esc>', '<C-\\><C-n>', { noremap = true })
-
-
-
 -- Undo.
 vim.api.nvim_set_keymap('n', '<C-u>', ':undo<CR>', { noremap = true })
 
