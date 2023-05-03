@@ -15,9 +15,6 @@ vim.api.nvim_set_keymap('n', '<C-q>', ':q!<CR>', { noremap = true })
 
 
 
--- NewTap
-vim.api.nvim_set_keymap('i', '<C-t>', "<Esc>:tab new", { noremap = true }) -- Opening a new tab.
-vim.api.nvim_set_keymap('n', '<C-t>', ':tab new <CR>', { noremap = true })
 
 -- Escape to out terminal mode.
 vim.api.nvim_set_keymap('t', '<Esc>', '<C-\\><C-n>', { noremap = true })
