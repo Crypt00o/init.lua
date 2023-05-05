@@ -8,10 +8,10 @@ vim.api.nvim_set_keymap('n', '<leader>w', ':wincmd w<CR>', { noremap = true })
 -- Save & exit quick keys.
 vim.api.nvim_set_keymap('i', '<C-s>', '<esc>:w!<CR>', { noremap = true }) -- Save files.
 vim.api.nvim_set_keymap('n', '<C-s>', ':w!<CR>', { noremap = true })
-vim.api.nvim_set_keymap('i', '<C-d>', '<esc>:wq!<CR>', { noremap = true }) -- Save and exit.
-vim.api.nvim_set_keymap('n', '<C-d>', ':wq!<CR>', { noremap = true })
-vim.api.nvim_set_keymap('i', '<C-q>', '<esc>:q!<CR>', { noremap = true }) -- Quit discarding changes.
-vim.api.nvim_set_keymap('n', '<C-q>', ':q!<CR>', { noremap = true })
+vim.api.nvim_set_keymap('i', '<leader>sq', '<esc>:wq!<CR>', { noremap = true }) -- Save and exit.
+vim.api.nvim_set_keymap('n', '<leader>sq', ':wq!<CR>', { noremap = true })
+vim.api.nvim_set_keymap('i', '<leader>q', '<esc>:q!<CR>', { noremap = true }) -- Quit discarding changes.
+vim.api.nvim_set_keymap('n', '<leader>q', ':q!<CR>', { noremap = true })
 
 
 
